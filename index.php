@@ -38,14 +38,6 @@ function getTiles($x,$y = 0.25) {
 						echo "<div class='tile' id='$i'>$i</div>";
 						$i++;
 					}
-					function go($i) {
-						if ($i > 1) {
-							$i++;
-						}	else {
-							$i = 4;
-						}	
-						document.getElementById($i).style.backgroundColor = "red";
-					}
 				?>
 			</div>
 			<div class="col-2">
